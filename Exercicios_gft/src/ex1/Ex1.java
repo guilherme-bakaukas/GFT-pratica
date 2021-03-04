@@ -10,7 +10,7 @@ public class Ex1 {
 		float[] vetor = new float[5];
 		
 		for (int i = 0; i < 5; i++) {
-			float num = entrada.nextInt();
+			float num = entrada.nextFloat();
 			vetor[i] = num;
 		}
 		
