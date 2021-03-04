@@ -17,6 +17,7 @@ public class Ex1 {
 		boolean iguais = true;
 		float ant = vetor[0], menor = vetor[0], maior = vetor[0];
 		
+		//coletamos os dados em uma única iteração
 		for (int i = 0; i<5;i++) {
 			
 			if(vetor[i]!= ant) {
@@ -32,6 +33,7 @@ public class Ex1 {
 			}
 		}
 		
+		//decidi imprimir na tela maior e menor mesmo com os valores iguais
 		System.out.println(String.format("menor: %.3f", menor));
 		System.out.println(String.format("maior: %.3f", maior));
 		if(iguais) {

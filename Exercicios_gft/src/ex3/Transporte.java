@@ -7,5 +7,7 @@ public abstract class Transporte {
 	public Transporte(Carga carga) {
 		this.carga = carga;
 	}
+	
+	//método abstrato que será implementado nas classes herdeiras
 	public abstract double calculaFrete(int distancia);
 }
